@@ -1,0 +1,92 @@
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.hero-section {
+  background-image: linear-gradient(
+      to right,
+      rgb(231, 100, 64),
+      rgba(29, 68, 149, 0.73)
+    ),
+    url("../img/tbimg/apr.jpg");
+  width: 100%;
+  background-size: cover;
+}
+
+.footer-right-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.header {
+  background-color: white;
+}
+.col-md-4.ml-auto.aos-init.aos-animate.contact-triffy {
+  flex: unset;
+  max-width: unset;
+}
+@media (max-width: 768px) {
+  .logo {
+    width: 100px;
+    height: 55px;
+  }
+  .app-info {
+    width: 200px;
+  }
+  .hero-section .iphone-wrap .phone-1,
+  .hero-section .iphone-wrap .phone-2 {
+    width: 200px;
+  }
+  .hero-section .iphone-wrap .phone-2 {
+    margin-left: 160px;
+  }
+  .section-heading {
+    margin-top: 120px;
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(-45deg, #e76440, #1d4495);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .phone-1 {
+    width: 100px;
+  }
+  .phone-2 {
+    width: 100px;
+  }
+  .info-card {
+    padding: 12px;
+    background: linear-gradient(
+      to right,
+      rgb(231, 100, 64) 10%,
+      rgba(29, 68, 149, 0.8) 100%
+    );
+  }
+  .hero-section .wave {
+    bottom: -335px;
+  }
+  .footer-row {
+    flex-direction: column;
+  }
+  .footer-row .footer-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-row .col:first-child {
+    margin-bottom: 30px;
+  }
+  .footer-row ul li {
+    margin-bottom: 2px;
+  }
+}
+@media (max-width: 375px) {
+  .hero-section .wave {
+    bottom: -400px;
+  }
+}
+@media (max-width: 365px) {
+  .hero-section .wave {
+    bottom: -425px;
+  }
+}
